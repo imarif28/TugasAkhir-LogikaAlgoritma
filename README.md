@@ -1,73 +1,73 @@
-# Menghitung Biaya Panggilan
+# Call Cost Calculator
 
-## Deskripsi Proyek
+## Project Description
 
-Proyek ini adalah program sederhana berbasis bahasa C untuk menghitung biaya panggilan berdasarkan waktu panggilan dan provider yang dipilih oleh pengguna. Program ini dikembangkan sebagai bagian dari Tugas Besar Mata Kuliah Praktek Logika dan Algoritma.
+This project is a simple C-based program to calculate call costs based on call duration and the selected provider. It was developed as part of the Final Project for the Logic and Algorithm Practice course.
 
-## Fitur
+## Features
 
-- Menghitung durasi panggilan dalam detik.
-- Menyediakan pilihan provider (Telkomsel, Indosat, Tri).
-- Menghitung biaya panggilan berdasarkan provider yang dipilih.
-- Memungkinkan pengguna untuk memilih ulang atau keluar dari program.
+- Calculate call duration in seconds.
+- Provide provider options (Telkomsel, Indosat, Tri).
+- Calculate call costs based on the selected provider.
+- Allow users to repeat the process or exit the program.
 
-## Teknologi yang Digunakan
+## Technologies Used
 
-- **Bahasa Pemrograman:** C
+- **Programming Language:** C
 - **IDE:** Code::Blocks
-- **Library:**
+- **Libraries:**
   - `stdio.h` (Input/Output)
-  - `stdlib.h` (Operasi konversi dan pembanding)
+  - `stdlib.h` (Conversion and comparison operations)
 
-## Cara Kerja Program
+## How the Program Works
 
-1. **Input Durasi Panggilan:**  
-   Pengguna diminta untuk memasukkan waktu awal dan akhir panggilan. Program menghitung durasi panggilan dalam detik.
+1. **Input Call Duration:**  
+   The user is prompted to enter the start and end times of the call. The program calculates the call duration in seconds.
 
-2. **Pemilihan Provider:**  
-   Pengguna dapat memilih salah satu dari tiga provider yang tersedia. Biaya dihitung berdasarkan provider yang dipilih.
+2. **Provider Selection:**  
+   The user can choose one of three available providers. Costs are calculated based on the selected provider.
 
-3. **Pengulangan Menu:**  
-   Pengguna dapat kembali ke menu untuk menghitung biaya dengan durasi atau provider berbeda, atau keluar dari program.
+3. **Menu Loop:**  
+   The user can return to the menu to calculate costs with different durations or providers, or exit the program.
 
-## Struktur Kode
+## Code Structure
 
-- **Deklarasi Variabel:**  
-  Variabel seperti `jamA`, `menitA`, `jamB`, `menitB` digunakan untuk menyimpan waktu panggilan.  
-  Variabel `biaya` digunakan untuk menyimpan biaya per detik dari setiap provider.
+- **Variable Declarations:**  
+  Variables such as `jamA`, `menitA`, `jamB`, `menitB` are used to store call times.  
+  The `biaya` variable stores the cost per second for each provider.
 
-- **Logika Penghitungan:**  
-  Menggunakan operasi aritmatika untuk menghitung durasi panggilan.  
-  Menggunakan struktur kontrol `switch-case` untuk menangani pilihan provider.  
-  Pengulangan `do-while` digunakan untuk memungkinkan pengguna mengulangi proses.
+- **Calculation Logic:**  
+  Arithmetic operations are used to calculate the call duration.  
+  The `switch-case` structure is used to handle provider selection.  
+  A `do-while` loop is implemented to allow users to repeat the process.
 
-- **Penanganan Kesalahan:**  
-  Pilihan yang tidak valid akan ditangani oleh kondisi `default` dalam `switch-case`.
+- **Error Handling:**  
+  Invalid inputs are handled through the `default` condition in the `switch-case`.
 
-## Tampilan Program
+## Program Interface
 
-1. **Tampilan Awal:**  
-   Input durasi panggilan.
+1. **Initial Screen:**  
+   Prompts the user to input call duration.
 
-2. **Menu Provider:**  
-   Pilihan provider.
+2. **Provider Menu:**  
+   Displays provider options.
 
-3. **Hasil Akhir:**  
-   Biaya panggilan berdasarkan durasi dan provider.
+3. **Final Output:**  
+   Shows call costs based on duration and selected provider.
 
-## Instalasi dan Penggunaan
+## Installation and Usage
 
-1. **Kompilasi Program:**  
-   - Buka proyek di Code::Blocks.  
-   - Kompilasi dan jalankan program.
+1. **Compile the Program:**  
+   - Open the project in Code::Blocks.  
+   - Compile and run the program.
 
-2. **Penggunaan:**  
-   - Masukkan waktu panggilan.  
-   - Pilih provider.  
-   - Lihat biaya panggilan.
+2. **Usage Instructions:**  
+   - Enter call duration.  
+   - Select a provider.  
+   - View the calculated call cost.
 
-## Pengembang
+## Developer
 
-- **Nama:** Ilham Muhammad Arif  
-- **Mata Kuliah:** Praktek Logika dan Algoritma  
-- **Institusi:** Politeknik Negeri Semarang  
+- **Name:** Ilham Muhammad Arif  
+- **Course:** Logic and Algorithm Practice  
+- **Institution:** Politeknik Negeri Semarang  
